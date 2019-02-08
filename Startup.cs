@@ -81,6 +81,7 @@ namespace DatingApp.API
                     });
                 });
             }
+            //use line below to seed users into sqlite db from Seed.cs file
             //seeder.SeedUsers();
             app.UseCors(x => x.AllowAnyHeader().AllowAnyMethod().AllowAnyOrigin());
             app.UseAuthentication();
